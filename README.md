@@ -1,8 +1,10 @@
-# Flutter app in Zapp!
+# Custom Text Colored Underline widget
 
-A new Flutter project built with Zapp!
+
+![Example image](https://github.com/ahmeddhus/custom_text_colored_underline/blob/master/images/widget_screenshot.png)
 
 ----
+# You can runt the project on Zapp using [this](https://zapp.run/github/ahmeddhus/custom_text_colored_underline)
 
 > To learn how to use Zapp! check out the [documentation](https://docs.zapp.run)
 
