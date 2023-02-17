@@ -1,7 +1,37 @@
 # Custom Text Colored Underline widget
 
+A custom underline widget that fit according to `Text` width.
 
 ![Example image](https://github.com/ahmeddhus/custom_text_colored_underline/blob/master/images/widget_screenshot.png)
+
+----
+# How to use it?
+
+          CustomTextColoredUnderline(
+            textSpan:TextSpan(
+              text: 'Grab The Best Deal On ',
+              style: TextStyle(
+                color: Colors.black,
+                fontWeight: FontWeight.bold,
+              ),
+              children: <TextSpan>[
+                TextSpan(
+                  text: 'Smartphones',
+                  style: TextStyle(
+                    color: Colors.blue,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ],
+            ),
+          ),
+
+----
+
+# How it works?
+
+Using `LayoutBuilder` and inside its `builder` function, we create `TextPainter` object and pass `TextSpan` and  to it.
+we get `TextPainter` and use it to set our underline width.
 
 ----
 # You can run the project on Zapp using [this](https://zapp.run/github/ahmeddhus/custom_text_colored_underline)
